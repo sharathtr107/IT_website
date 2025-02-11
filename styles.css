@@ -68,7 +68,6 @@ nav a:hover {
   line-height: 1.6;
   color: #bbb;
 }
-
 /* About Section */
 #about {
   display: flex;
@@ -162,3 +161,13 @@ footer {
     opacity: 1;
   }
 }
+.portfolio-item:hover { transform: scale(1.1); transition: transform 0.3s ease-in-out; 
+}
+#portfolio .grid div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #portfolio .grid div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.6);
+  }
